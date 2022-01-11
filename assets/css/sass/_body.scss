@@ -1,0 +1,102 @@
+.begin-lp {
+    padding-top:2.5%;
+    padding-bottom: 2.5%;
+    text-align: left;
+    h2 {
+        font-size: 16px;
+        max-width: 210px;
+        line-height: 1.88;
+        color: #1b1b1b;
+        font-family: $bold-font-family;
+    }
+    .copy-text-lp {
+        border-left: 1px solid #000;
+        font-size: 1.25em;
+        padding-left: 30px;
+    }
+}
+.form-content {
+    padding: 6% 3%;
+    .form-floating {
+        color: #fff;
+        .form-control {
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #4c4c4c;
+            color: #fff;
+            padding: 0.75rem;
+            border-radius: 0 !important;
+        }    
+        label {
+            color: #fff !important;
+            font-size: 16px;
+        }
+    }
+    .form-textarea {
+        margin-top: 60px;
+        label {
+            color: #fff;
+            padding-left: 10px;
+        }
+        textarea {
+            background: transparent;
+            border: 1px solid #4c4c4c!important;
+            border-radius: 10px!important;
+            color: #ffffff;
+            height: 140px;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+        textarea:focus {
+            color: #ffffff;
+            background-color: transparent!important;
+            border-color: transparent!important;
+            outline: 0;
+            box-shadow: none!important;
+        }
+    }
+    button {
+        background: transparent;
+        border: 1px solid #fff!important;
+        border-radius: 50%;
+        height: 125px;
+        margin-top: 60px;
+        width: 125px;
+    }
+    .btn-primary:hover {
+        background: transparent !important;
+        border-color: #4c4c4c !important;
+    }   
+}
+.form-floating .form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label {
+    transform: scale(.85) translateY(-1.5rem) translateX(0.15rem) !important;
+}
+/*CSS RESPONSIVE*/
+@media (max-width: 1024px) { 
+    h2 {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+    .form-textarea {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .begin-lp {
+        padding: 10% 0 6% !important;
+        .copy-text-lp {
+            margin-left: 40px;
+        }
+    }
+    .form-content {
+        padding: 10%;
+    }
+}
+@media (max-width: 767px) { 
+    .begin-lp {
+        padding: 30% 10% 15% !important;
+    } 
+    .form-content {
+        padding: 20% 30px;
+    }
+}

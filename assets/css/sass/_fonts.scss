@@ -1,0 +1,22 @@
+@font-face {
+    font-family: hkguiseregular;
+    src: url(/assets/fonts/hk-guise/HK-Guise-Regular.woff);
+}
+@font-face {
+    font-family: hkguisebold;
+    src: url(/assets/fonts/hk-guise/HK-Guise-Bold.woff);
+}
+@font-face {
+    font-family: hkguisemedium;
+    src: url(/assets/fonts/hk-guise/HK-Guise-Medium.woff);
+}
+@font-face {
+    font-family: hkguiselight;
+    src: url(/assets/fonts/hk-guise/HK-Guise-Light.otf);
+}
+
+$body-font-family: hkguiseregular;
+$bold-font-family: hkguisebold;
+$medium-font-family: hkguisemedium;
+$light-font-family: hkguiselight;
+

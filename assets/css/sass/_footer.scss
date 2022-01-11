@@ -1,0 +1,154 @@
+footer {
+    .container-fluid {
+        background-color: #151515;
+        border-top: 1px solid #fefefe;
+        .row {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    .footer-secondary {
+        border-top: 1px solid #fefefe;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+.logo-empresa-footer {
+    position: relative;
+    .copy-footer {
+        width: 52%;
+    }
+    .footer-logo-container {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+.title-footer {
+    color: #fefefe;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.menu-links-footer {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    a {
+        font-size: 0.85em;
+    }
+    a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+.menu-links-empresas a {
+    font-size: 12px;
+}
+.logo-empresa {
+    display: inline-block;
+    width: 20%;
+    img {
+        width: 80%;
+    }
+}
+
+.footer-secondary {
+    .copyright {
+        display: block;
+        font-size: 0.9em;
+        margin-bottom: 2%;
+    }
+}
+.legal-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    #menu-legal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        li {
+            font-size: 0.85em;
+            padding-right: 5px;
+            padding-left: 5px;
+        
+        }
+    }
+}
+.social-container {
+    display: flex;
+    padding-right: 15px;
+    ul {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        li {
+            font-size: 26px;
+            margin-right: 20px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .logos-footer-container {
+        display: none;
+    }
+    .legal-container {
+        max-width: 100%;
+    }
+    .footer-secondary .copyright {
+        margin-bottom: 6%;
+    }
+}
+@media (max-width: 768px) {
+    .site-footer {
+        .pl-30p {
+            padding-left: 4%;
+        }
+    }
+    .logo-empresa-footer {
+        margin-bottom: 40px;
+        .copy-footer {
+            width: 100%;
+        }
+        .footer-logo-container {
+            width: auto;
+        }
+    } 
+}
+@media (min-width: 768px) and (max-width: 1439px){
+    .legal-container {
+        max-width: 60%;
+    }
+}
+@media (min-width: 1440px) {
+    .site-footer {
+        .copyright {
+            margin-bottom: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .legal-container {
+            margin-left: -6%;
+        }
+        #menu-legal {
+            margin-bottom: 0;
+            margin-top: 5px;
+        }
+        #social-menu {
+            margin-top: -5px;
+        }
+    }   
+}

@@ -1,0 +1,13 @@
+@import '_fonts.scss';
+@import '_header.scss';
+@import '_body.scss';
+@import '_footer.scss';
+
+body *, h2 { font-family: $body-font-family;}
+.h100 { height: 100%;}
+.left-10 { left: 10px !important;}
+.pl-15px { padding-left: 15px !important;}
+.pr-15px { padding-right: 15px !important;}
+.pl-6p { padding-left: 6%;}
+.pl-8p { padding-left: 8%;}
+.pl-30p { padding-left: 30%;}
